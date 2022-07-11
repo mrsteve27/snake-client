@@ -12,6 +12,7 @@ const setupInput = (conn) => {
 };
 
 const handleUserInput = function(key) {
+  console.log("s");
   if (key === '\u0003') {
     process.exit();
   }
@@ -32,4 +33,4 @@ const handleUserInput = function(key) {
   }
 };
 
-module.exports = setupInput;
+module.exports = { setupInput };
