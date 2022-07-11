@@ -31,4 +31,5 @@ const handleUserInput = function(key) {
     connection.write('Say: poop!');
   }
 };
+
 module.exports = setupInput;
